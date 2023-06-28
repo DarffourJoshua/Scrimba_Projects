@@ -6,7 +6,6 @@ import Main from './components/Main';
 
 function App() {
   const mainEle = data.map(item => {
-    console.log(item);
     return (
       <Main
       key = {item.id}
